@@ -41,4 +41,4 @@ while (escolha!="3"):
     print("2 - Efetuar leitura dos dados!\n")
     print("3 - Sair!\n\n")
     escolha = input("Escolha a opção desejada: ");
-#TESTE
+#teste
