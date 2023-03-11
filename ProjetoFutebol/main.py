@@ -4,15 +4,16 @@ import Funcoes.criaListaJogos as listaJogos
 import Funcoes.criaListaTimes as listaTimes
 import Funcoes.criaArquivoComDados as arquivo
 import Funcoes.leituraDados as lerDados
-import calcularMediaGols as calcularMedia
+import Funcoes.calcularMediaGols as calcularMedia
 import Funcoes.descobrirTimePesquisado as descobrirTime
 import re
 
 print("\n1 - Efetuar raspagem de dados!\n")
 print("2 - Efetuar leitura dos dados!\n")
+print("3 - Calcular média de gols!\n")
 print("4 - Sair!\n\n")
 escolha = input("Escolha a opção desejada: ");
-while (escolha!="3"):
+while (escolha!="4"):
     match escolha:
         case "1":
             #faz a raspagem de dados do arquivo da pagina
@@ -20,7 +21,7 @@ while (escolha!="3"):
 
             #cria uma lista dessa raspagem de dados
             lista = []
-            lista = re.split('[,:]', response.text)
+            lista = re.split('[,:=&]', response.text)
 
             #pega o ID do time que foi pesquisado
             idTimePesquisado = pegarId.pegarIdTimePesquisado(lista)
@@ -37,8 +38,8 @@ while (escolha!="3"):
             print("Processo concluido!!!\n")
         case "2":
             lerDados.lerDados()
-        # case "3":
-        #     calcularMedia.
+        case "3":
+            calcularMedia.calcularMediaGols(timePesquisado)
         case "4":
             break;
         case _:
@@ -46,5 +47,6 @@ while (escolha!="3"):
     
     print("\n1 - Efetuar raspagem de dados!\n")
     print("2 - Efetuar leitura dos dados!\n")
+    print("3 - Calcular média de gols!\n")
     print("4 - Sair!\n\n")
     escolha = input("Escolha a opção desejada: ");
