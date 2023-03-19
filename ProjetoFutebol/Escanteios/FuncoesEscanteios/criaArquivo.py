@@ -1,12 +1,9 @@
 def criaArquivo(listaTimes):
     contador=0;
-    quantidadeJogos = input("Quantos jogos você deseja utilizar para calcular as médias?\n")
 
-    with open('dados.txt', 'w', encoding="utf-8") as arquivo:
+    with open('escanteios.txt', 'w', encoding="utf-8") as arquivo:
         for item in listaTimes:
-            if (contador==(6*int(quantidadeJogos))):
-                break
-            elif (contador==0):
+            if (contador==0):
                 print(item, file=arquivo)
             elif (contador%6 == 0):
                 print(("\n")+item, file=arquivo)

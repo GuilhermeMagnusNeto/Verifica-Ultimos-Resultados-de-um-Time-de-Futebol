@@ -28,19 +28,19 @@ def calcularMediaGols(timePesquisado):
 
     # descobrindo o nome do time que foi pesquisado
     if timePesquisado == 0:
-        nomeTimePesquisado = partidas[0]
+        nomeTimePesquisado = partidas[1]
     elif timePesquisado == 1:
-        nomeTimePesquisado = partidas[4]
+        nomeTimePesquisado = partidas[5]
         
     for contador in range(len(partidas)):
-        if contador%6 == 0:
-            if partidas[contador] == nomeTimePesquisado:
-                totalGolsCasa = totalGolsCasa+float(partidas[contador+1])
-                totalGolsSofridosCasa = totalGolsSofridosCasa+float(partidas[contador+3])
+        if contador%7 == 0:
+            if partidas[contador+1] == nomeTimePesquisado:
+                totalGolsCasa = totalGolsCasa+float(partidas[contador+2])
+                totalGolsSofridosCasa = totalGolsSofridosCasa+float(partidas[contador+4])
                 quantidadeJogosCasa = quantidadeJogosCasa+1
             else:
-                totalGolsFora = totalGolsFora+float(partidas[contador+3])
-                totalGolsSofridosFora = totalGolsSofridosFora+float(partidas[contador+1])
+                totalGolsFora = totalGolsFora+float(partidas[contador+4])
+                totalGolsSofridosFora = totalGolsSofridosFora+float(partidas[contador+2])
                 quantidadeJogosFora = quantidadeJogosFora+1
 
     #calculo dos totais de gols
