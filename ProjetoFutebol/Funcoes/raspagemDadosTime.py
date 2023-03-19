@@ -3,7 +3,7 @@ import requests
 def raspagemDados():
     url = "https://webws.365scores.com/web/games/results"
 
-    idTime = 725
+    idTime = 1218
     querystring = {"appTypeId":"5","langId":"31","timezoneName":"America/Sao_Paulo","userCountryId":"21","competitors":idTime,"showOdds":"true","":""}
 
     payload = ""
