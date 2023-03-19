@@ -7,7 +7,6 @@ import Funcoes.leituraDados as lerDados
 import Funcoes.calcularMediaGols as calcularMedia
 import Funcoes.descobrirTimePesquisado as descobrirTime
 import Funcoes.pegaIdPartida as pegarIdPartida
-import Escanteios.pegarEscanteios as mediaEscanteios
 import re
 
 print("\n1 - Efetuar raspagem de dados!\n")
@@ -47,7 +46,7 @@ while (escolha!="6"):
         case "3":
             calcularMedia.calcularMediaGols(timePesquisado)
         case "4":
-            mediaEscanteios.pegaEscanteios()
+            pegarEscanteios.pegaEscanteios()
         case "6":
             break;
         case _:

@@ -1,5 +1,5 @@
-import FuncoesEscanteios.pegarValorEscanteio as pegarEscanteio
-import FuncoesEscanteios.pegaValorCartoes as pegarCartoes
+import pegarValorEscanteio as pegarEscanteio
+import pegaValorCartoes as pegarCartoes
 import requests
 import re
 
