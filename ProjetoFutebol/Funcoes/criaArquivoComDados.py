@@ -4,11 +4,11 @@ def criaArquivo(listaTimes):
 
     with open('dados.txt', 'w', encoding="utf-8") as arquivo:
         for item in listaTimes:
-            if (contador==(6*int(quantidadeJogos))):
+            if (contador==(12*int(quantidadeJogos))):
                 break
             elif (contador==0):
                 print(item, file=arquivo)
-            elif (contador%6 == 0):
+            elif (contador%12 == 0):
                 print(("\n")+item, file=arquivo)
             else:
                 print(item, file=arquivo)

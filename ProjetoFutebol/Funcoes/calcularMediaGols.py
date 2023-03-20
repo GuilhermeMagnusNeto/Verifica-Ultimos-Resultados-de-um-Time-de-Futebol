@@ -33,7 +33,7 @@ def calcularMediaGols(timePesquisado):
         nomeTimePesquisado = partidas[5]
         
     for contador in range(len(partidas)):
-        if contador%7 == 0:
+        if contador%13 == 0:
             if partidas[contador+1] == nomeTimePesquisado:
                 totalGolsCasa = totalGolsCasa+float(partidas[contador+2])
                 totalGolsSofridosCasa = totalGolsSofridosCasa+float(partidas[contador+4])
