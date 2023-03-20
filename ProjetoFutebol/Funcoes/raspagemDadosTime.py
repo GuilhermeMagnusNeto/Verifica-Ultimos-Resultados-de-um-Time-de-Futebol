@@ -3,7 +3,7 @@ import requests
 def raspagemDados():
     url = "https://webws.365scores.com/web/games/results"
 
-    idTime = 1218
+    idTime = int(input("Digite o ID do time que você deseja analisar:\n"))
     querystring = {"appTypeId":"5","langId":"31","timezoneName":"America/Sao_Paulo","userCountryId":"21","competitors":idTime,"showOdds":"true","":""}
 
     payload = ""

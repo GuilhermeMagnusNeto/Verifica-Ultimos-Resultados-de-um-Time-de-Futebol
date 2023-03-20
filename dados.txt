@@ -62,3 +62,29 @@ Escanteios:
 Cartões:
 0
 0
+
+3678781
+Grêmio
+6.0
+X
+1.0
+Novo Hamburgo-RS
+Escanteios:
+8
+2
+Cartões:
+0
+0
+
+3678777
+São Luiz
+0.0
+X
+0.0
+Grêmio
+Escanteios:
+3
+4
+Cartões:
+4
+3
