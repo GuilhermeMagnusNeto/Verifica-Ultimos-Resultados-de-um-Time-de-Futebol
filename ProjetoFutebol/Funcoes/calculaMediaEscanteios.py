@@ -65,3 +65,15 @@ def calcularMediaEscanteios(timePesquisado):
     print("\n********Cálculo de médias totais de escanteios!!!********")
     print("Média de escanteios totais:", mediaEscanteiosTotal)
     print("Média de escanteios para o outro time totais:", mediaEscanteiosSofridosTotal)
+
+    with open('Analise.txt', 'a', encoding="utf-8") as arquivo:
+        print("\n********Cálculo de médias de escanteios em casa!!!********", file=arquivo)
+        print("Média de escanteios em casa:", mediaEscanteiosCasa, file=arquivo)
+        print("Média de escanteios para o outro time em casa:", mediaEscanteiosSofridosCasa, file=arquivo)
+        print("\n********Cálculo de médias de escanteios fora!!!********", file=arquivo)
+        print("Média de escanteios fora:", mediaEscanteiosFora, file=arquivo)
+        print("Média de escanteios para o outro time fora:", mediaEscanteiosSofridosFora, file=arquivo)
+        print("\n********Cálculo de médias totais de escanteios!!!********", file=arquivo)
+        print("Média de escanteios totais:", mediaEscanteiosTotal, file=arquivo)
+        print("Média de escanteios para o outro time totais:", mediaEscanteiosSofridosTotal , "\n\n\n", file=arquivo)
+    arquivo.close();

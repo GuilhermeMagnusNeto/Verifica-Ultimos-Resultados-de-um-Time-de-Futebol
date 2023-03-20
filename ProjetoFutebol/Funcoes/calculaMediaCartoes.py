@@ -65,3 +65,15 @@ def calcularMediaCartoes(timePesquisado):
     print("\n********Cálculo de médias totais de Cartoes!!!********")
     print("Média de cartões tomados totais:", mediaCartoesTotal)
     print("Média de cartões do outro time totais:", mediaCartoesSofridosTotal)
+
+    with open('Analise.txt', 'a', encoding="utf-8") as arquivo:
+        print("\n********Cálculo de médias de Cartoes em casa!!!********", file=arquivo)
+        print("Média de cartões tomados em casa:", mediaCartoesCasa, file=arquivo)
+        print("Média de cartões do outro time em casa:", mediaCartoesSofridosCasa, file=arquivo)
+        print("\n********Cálculo de médias de Cartoes fora!!!********", file=arquivo)
+        print("Média de cartões tomados fora:", mediaCartoesFora, file=arquivo)
+        print("Média de cartões do outro time fora:", mediaCartoesSofridosFora, file=arquivo)
+        print("\n********Cálculo de médias totais de Cartoes!!!********", file=arquivo)
+        print("Média de cartões tomados totais:", mediaCartoesTotal, file=arquivo)
+        print("Média de cartões do outro time totais:", mediaCartoesSofridosTotal, "\n\n\n", file=arquivo)
+    arquivo.close();

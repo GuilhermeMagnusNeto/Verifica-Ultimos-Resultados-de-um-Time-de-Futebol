@@ -65,3 +65,15 @@ def calcularMediaGols(timePesquisado):
     print("\n********Cálculo de médias totais de gols!!!********")
     print("Média de gols feitos totais:", mediaGolsTotal)
     print("Média de gols sofridos totais:", mediaGolsSofridosTotal)
+
+    with open('Analise.txt', 'a', encoding="utf-8") as arquivo:
+        print("\n********Cálculo de médias de gols em casa!!!********", file=arquivo)
+        print("Média de gols feitos em casa:", mediaGolsCasa,file=arquivo)
+        print("Média de gols sofridos em casa:", mediaGolsSofridosCasa,file=arquivo)
+        print("\n********Cálculo de médias de gols fora!!!********",file=arquivo)
+        print("Média de gols feitos fora:", mediaGolsFora,file=arquivo)
+        print("Média de gols sofridos fora:", mediaGolsSofridosFora,file=arquivo)
+        print("\n********Cálculo de médias totais de gols!!!********",file=arquivo)
+        print("Média de gols feitos totais:", mediaGolsTotal,file=arquivo)
+        print("Média de gols sofridos totais:", mediaGolsSofridosTotal,"\n\n\n",file=arquivo)
+    arquivo.close();
