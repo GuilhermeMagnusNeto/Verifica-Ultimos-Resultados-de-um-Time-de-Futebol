@@ -16,6 +16,8 @@ def valorEscanteiosCartoes(idPartidas):
         lista = []
         lista = re.split('[,:=&]', response.text)
 
+        #DEVO PEGAR AS DEMAIS INFORMAÇÕES AQUII
+
         #pega o valor dos escanteios
         for item in range(len(lista)):
             if '"Escanteios"' == lista[item]:

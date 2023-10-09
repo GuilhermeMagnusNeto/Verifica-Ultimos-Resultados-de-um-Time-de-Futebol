@@ -1,0 +1,30 @@
+
+********Cálculo de médias de gols em casa!!!********
+Média de gols feitos em casa: 0.8333333333333334
+Média de gols sofridos em casa: 1.1666666666666667
+
+********Cálculo de médias de gols fora!!!********
+Média de gols feitos fora: 3.75
+Média de gols sofridos fora: 0.5
+
+********Cálculo de médias totais de gols!!!********
+Média de gols feitos totais: 2.0
+Média de gols sofridos totais: 0.9 
+
+
+
+
+********Cálculo de médias de gols em casa!!!********
+Média de gols feitos em casa: 2.0
+Média de gols sofridos em casa: 0.6
+
+********Cálculo de médias de gols fora!!!********
+Média de gols feitos fora: 2.0
+Média de gols sofridos fora: 1.4
+
+********Cálculo de médias totais de gols!!!********
+Média de gols feitos totais: 2.0
+Média de gols sofridos totais: 1.0 
+
+
+

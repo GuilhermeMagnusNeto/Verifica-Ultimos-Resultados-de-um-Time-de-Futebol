@@ -1,0 +1,24 @@
+ESTATISTICAS QUE CONSIGO PEGAR NO WEB SCRAPPING
+
+Posse de bola
+Total de chutes
+Chutes no gol
+Chutes para fora
+Chances perigosas criadas
+Trave
+Chutes interceptados
+Ataque perigoso
+Escanteios
+Cruzamentos
+Impedimentos
+Chutes livres
+Toral de passes
+Passes completos
+Ataque
+Faltas
+Defesas do goleiro
+Desarmes
+Laterais cobrados
+Tiros de meta
+Cartões amarelos
+Cartões vermelhos

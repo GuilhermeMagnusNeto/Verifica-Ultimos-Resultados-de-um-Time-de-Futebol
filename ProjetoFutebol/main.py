@@ -29,7 +29,7 @@ while (escolha!="7"):
             #cria uma lista dessa raspagem de dados
             lista = []
             lista = re.split('[,:=&]', response.text)
-            
+
             #pega o Id da partida
             idPartidas = pegarIdPartida.idPartida(lista)
             #pega o ID do time que foi pesquisado
@@ -54,9 +54,9 @@ while (escolha!="7"):
         case "3":
             calcularMediaGols.calcularMediaGols(timePesquisado)
         case "4":
-             calcularMediaEscanteios.calcularMediaEscanteios(timePesquisado)
+            calcularMediaEscanteios.calcularMediaEscanteios(timePesquisado)
         case "5":
-             calcularMediaCartoes.calcularMediaCartoes(timePesquisado)
+            calcularMediaCartoes.calcularMediaCartoes(timePesquisado)
         case "6":
             print("\n\nMÉDIA GOLS:\n")
             calcularMediaGols.calcularMediaGols(timePesquisado)
