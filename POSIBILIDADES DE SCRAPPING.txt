@@ -1,6 +1,6 @@
 ESTATISTICAS QUE CONSIGO PEGAR NO WEB SCRAPPING
 
-Posse de bola
+Posse de bola JÁ POSSUI (FALTA MEDIAS)
 Total de chutes
 Chutes no gol
 Chutes para fora
@@ -8,7 +8,7 @@ Chances perigosas criadas
 Trave
 Chutes interceptados
 Ataque perigoso
-Escanteios
+Escanteios JÁ POSSUI
 Cruzamentos
 Impedimentos
 Chutes livres
@@ -20,5 +20,13 @@ Defesas do goleiro
 Desarmes
 Laterais cobrados
 Tiros de meta
-Cartões amarelos
+Cartões amarelos  JÁ POSSUI
 Cartões vermelhos
+
+
+ALTERAR ARQUIVOS:
+
+main.py
+criaListaTimes.py
+pegarEscanteio.py
+criaArquivoComDados.py

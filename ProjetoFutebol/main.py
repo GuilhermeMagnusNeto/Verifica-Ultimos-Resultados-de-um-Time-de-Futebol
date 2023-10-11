@@ -32,6 +32,7 @@ while (escolha!="7"):
 
             #pega o Id da partida
             idPartidas = pegarIdPartida.idPartida(lista)
+
             #pega o ID do time que foi pesquisado
             idTimePesquisado = pegarId.pegarIdTimePesquisado(lista)
 
@@ -42,9 +43,11 @@ while (escolha!="7"):
             listaJogos = listaJogos.criaListaJogos(lista)
 
             #pega valores dos escanteios e cartoes
-            escanteios, cartoes = pegarEscanteios.valorEscanteiosCartoes(idPartidas)
+            posseDeBola, escanteios, cartoes = pegarEscanteios.valorEscanteiosCartoes(idPartidas)
+
             #pega o resultado dos ultimos jogos com o nome dos times e placar
-            listaTimes = listaTimes.criaListaTimes(listaJogos, idPartidas, escanteios, cartoes)
+            listaTimes = listaTimes.criaListaTimes(listaJogos, idPartidas, escanteios, cartoes, posseDeBola)
+            
             #coloca as informações dentro de um txt
             arquivo.criaArquivo(listaTimes)
             print("Processo concluido!!!\n")

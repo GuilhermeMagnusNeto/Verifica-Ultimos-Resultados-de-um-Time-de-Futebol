@@ -6,6 +6,8 @@ def valorEscanteiosCartoes(idPartidas):
     contador = 0
     escanteios = []
     cartoes = []
+    posseDeBola = []
+
     while(contador < len(idPartidas)):
         url = "https://webws.365scores.com/web/game"
 
@@ -18,6 +20,11 @@ def valorEscanteiosCartoes(idPartidas):
 
         #DEVO PEGAR AS DEMAIS INFORMAÇÕES AQUII
 
+        #pega o valor da posse de bola
+        for item in range(len(lista)):
+            if '"Posse de bola"' == lista[item]:
+                posseDeBola.append(lista[item+8])
+
         #pega o valor dos escanteios
         for item in range(len(lista)):
             if '"Escanteios"' == lista[item]:
@@ -29,4 +36,4 @@ def valorEscanteiosCartoes(idPartidas):
                 cartoes.append(lista[item+8])
         contador = contador + 1
 
-    return  escanteios, cartoes
+    return posseDeBola, escanteios, cartoes
