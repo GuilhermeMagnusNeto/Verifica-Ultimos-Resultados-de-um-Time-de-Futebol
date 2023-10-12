@@ -33,7 +33,7 @@ def calcularMediaEscanteios(timePesquisado):
         nomeTimePesquisado = partidas[5]
         
     for contador in range(len(partidas)):
-        if contador%13 == 0:
+        if contador%16 == 0:
             if partidas[contador+1] == nomeTimePesquisado:
                 totalEscanteiosCasa = totalEscanteiosCasa+float(partidas[contador+7])
                 totalEscanteiosSofridosCasa = totalEscanteiosSofridosCasa+float(partidas[contador+8])

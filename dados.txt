@@ -11,8 +11,8 @@ Cartões:
 6
 4
 Posse de Bola:
-46%
-54%
+46
+54
 
 3752955
 Fortaleza
@@ -27,8 +27,8 @@ Cartões:
 1
 2
 Posse de Bola:
-51%
-49%
+51
+49
 
 3752942
 Grêmio
@@ -43,5 +43,5 @@ Cartões:
 3
 3
 Posse de Bola:
-35%
-65%
+35
+65

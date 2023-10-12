@@ -33,7 +33,7 @@ def calcularMediaCartoes(timePesquisado):
         nomeTimePesquisado = partidas[5]
         
     for contador in range(len(partidas)):
-        if contador%13 == 0:
+        if contador%16 == 0:
             if partidas[contador+1] == nomeTimePesquisado:
                 totalCartoesCasa = totalCartoesCasa+float(partidas[contador+10])
                 totalCartoesSofridosCasa = totalCartoesSofridosCasa+float(partidas[contador+11])

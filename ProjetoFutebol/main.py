@@ -10,6 +10,7 @@ import Funcoes.pegaIdPartida as pegarIdPartida
 import Escanteios.pegarEscanteios as pegarEscanteios
 import Funcoes.calculaMediaEscanteios as calcularMediaEscanteios
 import Funcoes.calculaMediaCartoes as calcularMediaCartoes
+import Funcoes.calculaMediaPosseDeBola as calcularMediaPosse
 import re
 
 print("\n1 - Efetuar raspagem de dados!\n")
@@ -17,10 +18,12 @@ print("2 - Efetuar leitura dos dados!\n")
 print("3 - Calcular média de gols!\n")
 print("4 - Calcular média de escanteios!\n")
 print("5 - Calcular média de cartões amarelos!\n")
-print("6 - Calcular TODAS as médias juntas!\n")
-print("7 - Sair!\n\n")
-escolha = input("Escolha a opção desejada: ")
-while (escolha!="7"):
+print("6 - Calcular média de posse de bola!\n")
+print("7 - Calcular TODAS as médias juntas!\n")
+print("8 - Sair!\n\n")
+escolha = input("Escolha a opção desejada: ");
+
+while (escolha!="8"):
     match escolha:
         case "1":
             #faz a raspagem de dados do arquivo da pagina
@@ -61,13 +64,17 @@ while (escolha!="7"):
         case "5":
             calcularMediaCartoes.calcularMediaCartoes(timePesquisado)
         case "6":
+            calcularMediaPosse.calcularMediaPosseDeBola(timePesquisado)
+        case "7":
             print("\n\nMÉDIA GOLS:\n")
             calcularMediaGols.calcularMediaGols(timePesquisado)
             print("\n\nMÉDIA ESCANTEIOS:\n")
             calcularMediaEscanteios.calcularMediaEscanteios(timePesquisado)
             print("\n\nMÉDIA CARTÕES:\n")
             calcularMediaCartoes.calcularMediaCartoes(timePesquisado)
-        case "7":
+            print("\n\nMÉDIA POSSE:\n")
+            calcularMediaPosse.calcularMediaPosseDeBola(timePesquisado)
+        case "8":
             break;
         case _:
             print("Valor inválido, por favor tente novamente!!!\n")
@@ -77,6 +84,7 @@ while (escolha!="7"):
     print("3 - Calcular média de gols!\n")
     print("4 - Calcular média de escanteios!\n")
     print("5 - Calcular média de cartões amarelos!\n")
-    print("6 - Calcular TODAS as médias juntas!\n")
-    print("7 - Sair!\n\n")
+    print("6 - Calcular média de posse de bola!\n")
+    print("7 - Calcular TODAS as médias juntas!\n")
+    print("8 - Sair!\n\n")
     escolha = input("Escolha a opção desejada: ");

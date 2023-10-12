@@ -23,7 +23,7 @@ def valorEscanteiosCartoes(idPartidas):
         #pega o valor da posse de bola
         for item in range(len(lista)):
             if '"Posse de bola"' == lista[item]:
-                posseDeBola.append(lista[item+8])
+                posseDeBola.append(lista[item+8][1:3])
 
         #pega o valor dos escanteios
         for item in range(len(lista)):

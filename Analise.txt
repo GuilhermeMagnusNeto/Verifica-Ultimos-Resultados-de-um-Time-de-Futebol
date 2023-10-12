@@ -1,30 +1,60 @@
 
 ********Cálculo de médias de gols em casa!!!********
-Média de gols feitos em casa: 0.8333333333333334
-Média de gols sofridos em casa: 1.1666666666666667
+Média de gols feitos em casa: 1.0
+Média de gols sofridos em casa: 0.0
 
 ********Cálculo de médias de gols fora!!!********
-Média de gols feitos fora: 3.75
-Média de gols sofridos fora: 0.5
+Média de gols feitos fora: 1.5
+Média de gols sofridos fora: 2.0
 
 ********Cálculo de médias totais de gols!!!********
-Média de gols feitos totais: 2.0
-Média de gols sofridos totais: 0.9 
+Média de gols feitos totais: 1.3333333333333333
+Média de gols sofridos totais: 1.3333333333333333 
 
 
 
 
-********Cálculo de médias de gols em casa!!!********
-Média de gols feitos em casa: 2.0
-Média de gols sofridos em casa: 0.6
+********Cálculo de médias de escanteios em casa!!!********
+Média de escanteios em casa: 2.0
+Média de escanteios para o outro time em casa: 11.0
 
-********Cálculo de médias de gols fora!!!********
-Média de gols feitos fora: 2.0
-Média de gols sofridos fora: 1.4
+********Cálculo de médias de escanteios fora!!!********
+Média de escanteios fora: 4.0
+Média de escanteios para o outro time fora: 3.5
 
-********Cálculo de médias totais de gols!!!********
-Média de gols feitos totais: 2.0
-Média de gols sofridos totais: 1.0 
+********Cálculo de médias totais de escanteios!!!********
+Média de escanteios totais: 3.3333333333333335
+Média de escanteios para o outro time totais: 6.0 
+
+
+
+
+********Cálculo de médias de Cartoes em casa!!!********
+Média de cartões tomados em casa: 3.0
+Média de cartões do outro time em casa: 3.0
+
+********Cálculo de médias de Cartoes fora!!!********
+Média de cartões tomados fora: 3.0
+Média de cartões do outro time fora: 3.5
+
+********Cálculo de médias totais de Cartoes!!!********
+Média de cartões tomados totais: 3.0
+Média de cartões do outro time totais: 3.3333333333333335 
+
+
+
+
+********Cálculo de média de posse em casa!!!********
+Média de posse feitos em casa: 35.0
+Média de posse sofridos em casa: 65.0
+
+********Cálculo de média de posse fora!!!********
+Média de posse feitos fora: 51.5
+Média de posse sofridos fora: 48.5
+
+********Cálculo de média total de posse!!!********
+Média de posse feitos total: 46.0
+Média de posse sofridos total: 54.0 
 
 
 

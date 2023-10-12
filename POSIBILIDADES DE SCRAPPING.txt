@@ -1,6 +1,6 @@
 ESTATISTICAS QUE CONSIGO PEGAR NO WEB SCRAPPING
 
-Posse de bola JÁ POSSUI (FALTA MEDIAS)
+Posse de bola JÁ POSSUI
 Total de chutes
 Chutes no gol
 Chutes para fora
@@ -30,3 +30,4 @@ main.py
 criaListaTimes.py
 pegarEscanteio.py
 criaArquivoComDados.py
+todos os calcular medias.py
